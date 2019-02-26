@@ -1,15 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>cesar encryption</title>
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <form>
+<div>
+     <h1>BIENVENID@ AL CIFRADO CESAR</h1>
+          </div>
+          <br />
+<!--haciendo un TEXTAREA para que ingrese su mensaje a cifrar/DESCIFRAR -->
+<div >
+   <br />
+<!--    <label for="message-here">Aqui ingresa tu mensaje a cifrar:</label>  -->
+  
+<textarea id="mensaje" name="textarea" rows="5" cols="40"  placeholder="aqui tu mensaje a cifrar/decifrar" ></textarea>
+  
+
+    <!-- creando input tipo numero para que pueda el usuario decidir cuantos numeros de letras desea desplazar -->
+    <br /><br />
+<label for="displace"> numeros a desplazar</label>
+
+<input type="number" name="" id="displace" title="¿cuantas posiciones deseas avanzar?">
+
+<!--creando botones para que el usuario cuando termine de escribir su mensaje le de click y 
+  haga la funcion de cifrar o decifrar-->
+  <br /><br />
+  <div>
+    <button id="encode" type="button"> CIFRAR MENSAJE</button>
+  
+    <button id="descifrar" type="button"> DESCIFRAR EL MENSAJE</button>
+
+  
+  </div>
+  
+<div>
+<p id="result"> </p>
+
+</div>
+
+
+
+
+
+  </div>
+
+<div>
+  <input type="button" id="limpiar" value="Limpiar Campo">
+</div>
+ <script src="cipher.js"></script>
+ <script type="text/javascript" src="index.js"></script>
+
+</form>
+</body>
 </html>
+
