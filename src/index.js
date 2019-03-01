@@ -7,7 +7,7 @@ const text = document.getElementById("mensaje");
 
 const displace = document.getElementById("displace");
 
-const result = document.getElementById("result");
+
 
 const limpiar = document.getElementById("limpiar");
 

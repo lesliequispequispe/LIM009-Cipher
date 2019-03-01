@@ -1,3 +1,61 @@
+  #Introduccion al cifrado cesar:
+
+En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, código de César o desplazamiento de César, es una de las técnicas decodificación más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A ), la B sería reemplazada por la E, etc. Este método debe su nombre, según Suetonio, a Julio César, que lo usaba para comunicarse con sus generales. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
+
+[caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+
+Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+
+- La letra A se cifra como D.
+- La palabra CASA se cifra como FDVD.
+- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+
+##Definicion del producto:
+
+¿para que tipo de usuario es mi producto?
+
+va dirigido para personas comprometid@s, y que deseen tener una platica con alguien mas.
+
+¿Cuáles son los objetivos de los usuarios en relación con mi producto?
+
+desean tener una platica con alguien mas sin ser descubiertos por sus parejas.
+
+
+¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+
+ya que puedes ingresar un texto y poniendo el numero de desplazamiento que tu y la persona con la que platicas sabran para codificar y decodificar. si alguien encuentra la conversacion pues no sabran lo que realmente se conversan ya que no sabran cual es el numero de desplazamiento, y si la persona intenta con un numero erroneo de desplazamiento pues se decodificara otro texto.
+
+###Programa utilizado:
+javascript y html.
+
+####Instrucciones de usuario:
+
+1. ingrese el mensaje en el campo vacio.
+2. escoge el numero de desplazamiento.
+3. click a cifrar/decifrar.
+4. resultado.
+
+
+#####Autora:
+ leslie Quispe (https://github.com/lesliequispequispe/LIM009-Cipher)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -71,6 +129,9 @@ La interfaz debe permitir al usuario:
 - Ver el resultado del mensaje cifrado.
 - Insertar un mensaje (texto) a descifrar.
 - Ver el resultado del mensaje descifrado.
+
+
+
 
 #### Scripts / Archivos
 
