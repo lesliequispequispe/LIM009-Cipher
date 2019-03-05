@@ -1,0 +1,36 @@
+body {
+background-color: black;
+padding-left: 250px;
+
+}
+
+
+
+.welcome {
+background-color: aqua;
+display: inline-block;
+text-align: center;
+width: 60%;
+color: black;
+margin-top: 90px;
+
+}
+
+.button {
+background-color: blueviolet;
+display: inline-block;
+vertical-align: top;
+color: black;
+padding-left: 100px;
+margin-top: 10px;
+}
+
+.textarea {
+background-color: rgb(164, 216, 164);
+display: inline-block;
+}
+
+.displace {
+background-color: rgb(255, 136, 0);
+display: inline-block;
+}

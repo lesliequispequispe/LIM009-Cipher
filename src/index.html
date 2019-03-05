@@ -3,22 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>cesar encryption</title>
-    <link rel="stilesheet" src="estilos.css"></style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <form>
-      <div>
+      <div class="welcome">
          <h1>BIENVENID@ AL CIFRADO CESAR</h1>
+         <p>donde conversar con tu pareja sera algo confidencial</p>
            </div>
               <br />
+              <br />
 <!--haciendo un TEXTAREA para que ingrese su mensaje a cifrar/DESCIFRAR -->
-           <div >
+           <div class="button">
           <br />
 <!--Aqui ingresa tu mensaje a cifrar:</label>  -->
-        <textarea id="mensaje" name="textarea" rows="5" cols="40"  placeholder="aqui tu mensaje a cifrar/decifrar" ></textarea>
+        <textarea class="textarea"   id="mensaje" name="textarea" rows="5" cols="40"  placeholder="aqui tu mensaje a cifrar/decifrar" ></textarea>
   <!-- creando input tipo numero para que pueda el usuario decidir cuantos numeros de letras desea desplazar -->
       <br /><br />
-<label for="displace"> numeros a desplazar</label>
+<label  class="displace" for="displace"> numeros a desplazar</label>
 
 <input type="number" name="" id="displace" title="¿cuantas posiciones deseas avanzar?">
 
@@ -34,9 +36,6 @@
 <p id="result"> </p>
 </div>
   </div>
-<div>
-  <input type="button" id="limpiar" value="Limpiar Campo">
-</div>
  <script src="cipher.js"></script>
  <script type="text/javascript" src="index.js"></script>
 
