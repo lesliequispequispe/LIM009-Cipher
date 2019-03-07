@@ -30,6 +30,7 @@ window.cipher = {
       //console.log(string[i]);
       //string.charCodeAt(0);
       //console.log(string.charCodeAt(0));
+      
       //console.log(string.charCodeAt(i));
       let valorAssci2 = string.charCodeAt(i);
       
