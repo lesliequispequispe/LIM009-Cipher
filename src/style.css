@@ -1,1 +1,45 @@
 /* Acá va tu código */
+body {
+   
+    padding-left: 250px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("luna.jpg");
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+ }
+
+    
+    
+    
+    .welcome {
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    color: white;
+    margin-top: 150px;
+    
+    }
+    
+    .button {
+    background-color: blueviolet;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    padding-left: 100px;
+   
+    }
+    
+    .textarea {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .displace {
+    background-color: white;
+    color: black;
+
+    }
+    
